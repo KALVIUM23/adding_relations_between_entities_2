@@ -40,3 +40,46 @@
 .read-the-docs {
   color: #888;
 }
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.rating-widget {
+  margin-top: 8px;
+}
+
+.rating-widget .star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.rating-widget .star.filled {
+  color: #f5c518;
+}
+
+.rating-widget button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rating-widget button:hover {
+  background-color: #0056b3;
+}
